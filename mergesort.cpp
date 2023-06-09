@@ -20,7 +20,7 @@ Node*takeinput(){
     }
     return head;
 }
-Node* midpoint(Node*head){
+Node* midpoint(Node*head){ //!this function returns the mid point of the linked list
     if(head==NULL || head->next==NULL){
         return head;
     }

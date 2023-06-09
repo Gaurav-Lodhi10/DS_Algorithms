@@ -13,11 +13,12 @@ class Node{
 class doubleNode{
     public:
     int data;
-    Node*head;
-    Node*tail;
+    doubleNode*next;
+    doubleNode*prev;
     public:
     doubleNode(int data){
-        head=NULL;
-        tail=NULL;
+        this->data=data;
+        this->next=NULL;
+        this->prev=NULL;
     }
 };
